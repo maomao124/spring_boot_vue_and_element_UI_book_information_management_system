@@ -132,3 +132,5 @@ description：
 2022-05-09 18:46:21.961 DEBUG 19484 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
 2022-05-09 18:46:21.961 DEBUG 19484 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
 2022-05-09 18:46:21.962 DEBUG 19484 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : <==      Total: 10
+2022-05-09 18:47:59.176  INFO 19484 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 18:47:59.178  INFO 19484 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
