@@ -16,6 +16,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
  * Description(描述)： 实体类
  */
 
+
 public class Book
 {
     @TableId(type = IdType.AUTO)
@@ -24,11 +25,22 @@ public class Book
     private String name;
     private String description;
 
+    /**
+     * Instantiates a new Book.
+     */
     public Book()
     {
 
     }
 
+    /**
+     * Instantiates a new Book.
+     *
+     * @param id          the id
+     * @param type        the type
+     * @param name        the name
+     * @param description the description
+     */
     public Book(Integer id, String type, String name, String description)
     {
         this.id = id;
@@ -37,41 +49,81 @@ public class Book
         this.description = description;
     }
 
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
     public Integer getId()
     {
         return id;
     }
 
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
     public void setId(Integer id)
     {
         this.id = id;
     }
 
+    /**
+     * Gets type.
+     *
+     * @return the type
+     */
     public String getType()
     {
         return type;
     }
 
+    /**
+     * Sets type.
+     *
+     * @param type the type
+     */
     public void setType(String type)
     {
         this.type = type;
     }
 
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
     public String getName()
     {
         return name;
     }
 
+    /**
+     * Sets name.
+     *
+     * @param name the name
+     */
     public void setName(String name)
     {
         this.name = name;
     }
 
+    /**
+     * Gets description.
+     *
+     * @return the description
+     */
     public String getDescription()
     {
         return description;
     }
 
+    /**
+     * Sets description.
+     *
+     * @param description the description
+     */
     public void setDescription(String description)
     {
         this.description = description;
