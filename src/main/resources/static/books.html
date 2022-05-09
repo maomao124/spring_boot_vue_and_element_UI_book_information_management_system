@@ -14,11 +14,16 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>图书管理</title>
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
     <!-- 引入样式 -->
     <link rel="stylesheet" href="css/element-ui.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .el-table {
+            font-size: 18px;
+        }
+    </style>
 </head>
 
 <body class="hold-transition">
@@ -41,8 +46,10 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
                 <el-button @click="getAll()" class="dalfBut">查询</el-button>
                 <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
             </div>
-            <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
-                <el-table-column type="index" align="center" label="序号"></el-table-column>
+
+
+            <el-table current-row-key="id" :data="dataList" stripe highlight-current-row>
+                <el-table-column width="100px" type="index" align="center" label="序号"></el-table-column>
                 <el-table-column prop="type" label="图书类别" align="center"></el-table-column>
                 <el-table-column prop="name" label="图书名称" align="center"></el-table-column>
                 <el-table-column prop="description" label="描述" align="center"></el-table-column>
@@ -227,6 +234,11 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
                     this.pagination.total = res.data.data.total;
 
                     this.dataList = res.data.data.records;
+                    this.$message({
+                        type: 'success',
+                        center: true,
+                        message: "查询成功"
+                    })
                 }).catch((err) =>
                 {
                     this.$message({
