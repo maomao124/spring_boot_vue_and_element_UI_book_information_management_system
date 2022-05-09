@@ -1,0 +1,215 @@
+2022-05-09 15:11:51.518 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:11:51.519 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:11:51.519 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:11:51.521 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:14:19.428  INFO 3124 --- [Thread-63] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closing ...
+2022-05-09 15:14:19.429  INFO 3124 --- [Thread-63] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closed
+2022-05-09 15:14:19.499  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:14:19.500 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:14:19.500  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:14:19.666  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:14:19.667  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:14:19.667  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:14:19.680  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:14:19.680  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2022-05-09 15:14:19.693  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:14:19.725  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} inited
+2022-05-09 15:14:19.836  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:14:19.853  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:14:19.857  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.385 seconds (JVM running for 1389.721)
+2022-05-09 15:14:19.857  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:14:24.694  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 15:14:24.694  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 15:14:24.695  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 15:14:24.699 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:14:24.726 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:14:24.726 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:14:24.728 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:14:24.729 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:14:24.729 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:14:24.730 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:14:25.875 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:14:25.876 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:14:25.876 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:14:25.878 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:14:25.878 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:14:25.878 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:14:25.879 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:14:37.651 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:14:37.652 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:14:37.652 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:14:37.653 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:14:37.654 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:14:37.654 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:14:37.654 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:14:42.519 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.controller.BookController            : 保存图书
+2022-05-09 15:14:42.521 DEBUG 3124 --- [http-nio-8080-exec-4] mao.book_management.dao.BookDao.insert   : ==>  Preparing: INSERT INTO book ( type, name, description ) VALUES ( ?, ?, ? )
+2022-05-09 15:14:42.521 DEBUG 3124 --- [http-nio-8080-exec-4] mao.book_management.dao.BookDao.insert   : ==> Parameters: 1(String), 1(String), 2(String)
+2022-05-09 15:14:42.524 DEBUG 3124 --- [http-nio-8080-exec-4] mao.book_management.dao.BookDao.insert   : <==    Updates: 1
+2022-05-09 15:14:42.536 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:14:42.537 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:14:42.537 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:14:42.538 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:14:42.539 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:14:42.539 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:14:42.540 DEBUG 3124 --- [http-nio-8080-exec-5] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:15:33.569 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:15:33.571 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:15:33.572 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:15:33.574 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:15:33.575 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:15:33.575 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:15:33.576 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:17:14.312 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.controller.HTMLPageController        : IP：0:0:0:0:0:0:0:1 访问静态资源books.html
+2022-05-09 15:17:14.528 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:17:14.535  WARN 3124 --- [http-nio-8080-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 100954
+2022-05-09 15:17:14.553 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:17:14.553 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:17:14.555 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:17:14.555 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:17:14.555 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:17:14.556 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:17:26.433 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.controller.HTMLPageController        : IP：0:0:0:0:0:0:0:1 访问静态资源books.html
+2022-05-09 15:17:26.642 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:17:26.643 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:17:26.644 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:17:26.645 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:17:26.645 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:17:26.646 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:17:26.646 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:17:29.117 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:17:29.118 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:17:29.118 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:17:29.120 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:17:29.120 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:17:29.120 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:17:29.121 DEBUG 3124 --- [http-nio-8080-exec-9] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:18:40.943 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.controller.HTMLPageController        : IP：0:0:0:0:0:0:0:1 访问静态资源books.html
+2022-05-09 15:18:41.155 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:18:41.156  WARN 3124 --- [http-nio-8080-exec-4] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 72035
+2022-05-09 15:18:41.174 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:18:41.174 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:18:41.176 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:18:41.176 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:18:41.176 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:18:41.178 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:18:42.443 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.controller.HTMLPageController        : IP：0:0:0:0:0:0:0:1 访问静态资源books.html
+2022-05-09 15:18:42.645 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:18:42.646 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:18:42.646 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:18:42.647 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:18:42.648 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:18:42.648 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:18:42.649 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:18:48.531 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:18:48.532 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:18:48.532 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:18:48.533 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:18:48.534 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:18:48.534 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:18:48.534 DEBUG 3124 --- [http-nio-8080-exec-6] m.b.dao.BookDao.selectPage               : <==      Total: 5
+2022-05-09 15:19:02.402 DEBUG 3124 --- [http-nio-8080-exec-7] m.b.controller.BookController            : 保存图书
+2022-05-09 15:19:02.404 ERROR 3124 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: null
+	at mao.book_management.controller.BookController.save(BookController.java:62) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2022-05-09 15:19:02.413 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
