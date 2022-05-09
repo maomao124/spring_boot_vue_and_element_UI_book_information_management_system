@@ -31,3 +31,18 @@
 2022-05-09 14:14:28.084 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 4
 2022-05-09 14:14:28.110  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-09 14:14:28.117  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:45:31.511  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 9012 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:45:31.511 DEBUG 9012 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:45:31.512  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:45:31.542  INFO 9012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-09 14:45:31.542  INFO 9012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-09 14:45:32.406  INFO 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:45:32.414  INFO 9012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:45:32.415  INFO 9012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:45:32.477  INFO 9012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:45:32.477  INFO 9012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2022-05-09 14:45:32.556  INFO 9012 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:45:32.657  INFO 9012 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:45:33.088  INFO 9012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:45:33.122  INFO 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:45:33.132  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 1.925 seconds (JVM running for 2.481)
