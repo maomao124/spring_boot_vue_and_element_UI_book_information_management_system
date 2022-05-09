@@ -40,6 +40,7 @@ public class BookController
     @GetMapping("/books")
     public Result getAll()
     {
+        log.debug("获取全部");
         return new Result(true, bookService.list());
     }
 
@@ -54,6 +55,7 @@ public class BookController
     @PostMapping("/books")
     public Result save(@RequestBody Book book) throws IOException
     {
+        log.debug("保存图书");
         //测试异常
         if (book.getName().equals("123"))
         {
@@ -74,6 +76,7 @@ public class BookController
     @PutMapping("/books")
     public Result update(@RequestBody Book book) throws IOException
     {
+        log.debug("更新图书信息");
         if (book.getName().equals("123"))
         {
             throw new IOException();
@@ -92,6 +95,7 @@ public class BookController
     @DeleteMapping("/books/{id}")
     public Result delete(@PathVariable Integer id)
     {
+        log.debug("删除图书信息："+id);
         return new Result(bookService.delete(id));
     }
 
@@ -105,6 +109,7 @@ public class BookController
     @GetMapping("books/{id}")
     public Result getById(@PathVariable Integer id)
     {
+        log.debug("获取图书信息："+id);
         return new Result(true, bookService.getById(id));
     }
 
