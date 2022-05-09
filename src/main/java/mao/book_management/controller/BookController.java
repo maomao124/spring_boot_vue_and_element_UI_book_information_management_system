@@ -37,7 +37,7 @@ public class BookController
      *
      * @return Result对象
      */
-    @GetMapping("/book")
+    @GetMapping("/books")
     public Result getAll()
     {
         return new Result(true, bookService.list());
@@ -51,7 +51,7 @@ public class BookController
      * @return Result 对象
      * @throws IOException 异常
      */
-    @PostMapping("/book")
+    @PostMapping("/books")
     public Result save(@RequestBody Book book) throws IOException
     {
         //测试异常
@@ -71,7 +71,7 @@ public class BookController
      * @return Result 对象
      * @throws IOException 异常
      */
-    @PutMapping("/book")
+    @PutMapping("/books")
     public Result update(@RequestBody Book book) throws IOException
     {
         if (book.getName().equals("123"))
@@ -89,7 +89,7 @@ public class BookController
      * @param id 图书id
      * @return Result对象
      */
-    @DeleteMapping("/book/{id}")
+    @DeleteMapping("/books/{id}")
     public Result delete(@PathVariable Integer id)
     {
         return new Result(bookService.delete(id));
@@ -102,7 +102,7 @@ public class BookController
      * @param id 图书的id
      * @return Result对象
      */
-    @GetMapping("book/{id}")
+    @GetMapping("books/{id}")
     public Result getById(@PathVariable Integer id)
     {
         return new Result(true, bookService.getById(id));
@@ -118,7 +118,7 @@ public class BookController
      * @param book        此数据是条件查询的参数
      * @return Result对象
      */
-    @GetMapping("book/{currentPage}/{pageSize}")
+    @GetMapping("books/{currentPage}/{pageSize}")
     public Result getPage(@PathVariable Integer currentPage, @PathVariable Integer pageSize, Book book)
     {
         log.debug("查询，查询参数：" + book);

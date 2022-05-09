@@ -1,8 +1,12 @@
 package mao.book_management.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
 
 
 /**
@@ -21,14 +25,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HTMLPageController
 {
+    private static final Logger log = LoggerFactory.getLogger(HTMLPageController.class);
+
     /**
      * 对html页面放行，默认页面
      *
      * @return books.html
      */
     @RequestMapping("/")
-    public String getHTMLPageBooks()
+    public String getHTMLPageBooks(HttpServletRequest request)
     {
+        String remoteAddr = request.getRemoteAddr();
+        log.debug("IP：" + remoteAddr + " 访问静态资源books.html");
         return "books";
     }
 }
