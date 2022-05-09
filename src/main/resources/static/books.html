@@ -276,12 +276,13 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
                     }
                 }).catch((err) =>
                 {
-                    /* this.$message(
-                         {
-                             type: 'error',
-                             message: "查询失败！网络异常或者其它错误"
-                         }
-                     )*/
+                    console.log(err)
+                    this.$message(
+                        {
+                            type: 'error',
+                            message: "添加失败！网络异常或者服务器异常或者其它错误"
+                        }
+                    )
                 }).finally(() =>
                 {
                     //2.重新加载数据
@@ -361,6 +362,15 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
                     {
                         this.$message.error("修改失败");
                     }
+                }).catch((err) =>
+                {
+                    console.log(err)
+                    this.$message(
+                        {
+                            type: 'error',
+                            message: "修改失败！网络异常或者服务器异常或者其它错误"
+                        }
+                    )
                 }).finally(() =>
                 {
                     //2.重新加载数据
