@@ -8,7 +8,7 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
   GitHub：https://github.com/maomao124/
   Date(创建日期)： 2022/5/9
   Time(创建时间)： 13:43
-  Description(描述)： 无
+  Description(描述)： 页面
 -->
 
 <html lang="en">
@@ -43,18 +43,18 @@ Project name(项目名称)：spring_boot_vue_and_element_UI_book_information_man
                           class="filter-item"></el-input>
                 <el-input placeholder="图书描述" v-model="pagination.description" style="width: 200px;"
                           class="filter-item"></el-input>
-                <el-button @click="getAll()" class="dalfBut">查询</el-button>
+                <el-button @click="getAll()" type="primary" class="dalfBut">查询</el-button>
                 <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
             </div>
 
 
-            <el-table current-row-key="id" :data="dataList" stripe highlight-current-row>
-                <el-table-column width="100px" type="index" align="center" label="序号"></el-table-column>
-                <el-table-column prop="type" label="图书类别" align="center"></el-table-column>
-                <el-table-column prop="name" label="图书名称" align="center"></el-table-column>
-                <el-table-column prop="description" label="描述" align="center"></el-table-column>
+            <el-table :border="true" current-row-key="id" :data="dataList" stripe highlight-current-row>
+                <el-table-column fixed width="100px" type="index" align="center" label="序号"></el-table-column>
+                <el-table-column min-width="200px" prop="type" label="图书类别" align="center"></el-table-column>
+                <el-table-column min-width="200px" prop="name" label="图书名称" align="center"></el-table-column>
+                <el-table-column min-width="200px" prop="description" label="描述" align="center"></el-table-column>
 
-                <el-table-column label="操作" align="center">
+                <el-table-column min-width="200px" fixed="right" label="操作" align="center">
                     <template slot-scope="scope">
                         <el-button type="primary" size="mini" @click="handleUpdate(scope.row)">编辑</el-button>
                         <el-button type="danger" size="mini" @click="handleDelete(scope.row)">删除</el-button>
