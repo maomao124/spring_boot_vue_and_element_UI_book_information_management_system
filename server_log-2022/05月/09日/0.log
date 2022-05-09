@@ -1,0 +1,112 @@
+2022-05-09 14:11:12.364  INFO 14808 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 14808 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:11:12.365 DEBUG 14808 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:11:12.366  INFO 14808 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:11:13.482  INFO 14808 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:11:13.773  INFO 14808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:11:15.285  INFO 14808 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.345 seconds (JVM running for 4.596)
+2022-05-09 14:11:16.514 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:11:16.557 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:11:16.600 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 0
+2022-05-09 14:11:16.641  INFO 14808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:11:16.649  INFO 14808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:13:57.773  INFO 17312 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 17312 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:13:57.774 DEBUG 17312 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:13:57.774  INFO 17312 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:13:58.754  INFO 17312 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:13:59.005  INFO 17312 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:14:00.400  INFO 17312 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.038 seconds (JVM running for 3.971)
+2022-05-09 14:14:01.454 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:14:01.498 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:14:01.540 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:14:01.564  INFO 17312 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:14:01.571  INFO 17312 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:14:24.387  INFO 11124 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 11124 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:14:24.388 DEBUG 11124 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:14:24.388  INFO 11124 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:14:25.418  INFO 11124 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:14:25.666  INFO 11124 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:14:27.048  INFO 11124 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.044 seconds (JVM running for 3.973)
+2022-05-09 14:14:27.984 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:14:28.045 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:14:28.084 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:14:28.110  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:14:28.117  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:45:31.511  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 9012 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:45:31.511 DEBUG 9012 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:45:31.512  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:45:31.542  INFO 9012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-09 14:45:31.542  INFO 9012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-09 14:45:32.406  INFO 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:45:32.414  INFO 9012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:45:32.415  INFO 9012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:45:32.477  INFO 9012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:45:32.477  INFO 9012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2022-05-09 14:45:32.556  INFO 9012 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:45:32.657  INFO 9012 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:45:33.088  INFO 9012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:45:33.122  INFO 9012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:45:33.132  INFO 9012 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 1.925 seconds (JVM running for 2.481)
+2022-05-09 14:47:41.226  INFO 9012 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 14:47:41.226  INFO 9012 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 14:47:41.227  INFO 9012 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 14:47:41.252  WARN 9012 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "student"]
+2022-05-09 14:48:04.422  WARN 9012 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "s"]
+2022-05-09 14:48:30.415  WARN 9012 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "book.html"]
+2022-05-09 14:50:02.745  WARN 9012 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "book.html"]
+2022-05-09 14:50:03.027  WARN 9012 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "book.html"]
+2022-05-09 14:50:24.429 DEBUG 9012 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:50:24.447 DEBUG 9012 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:50:24.463 DEBUG 9012 --- [http-nio-8080-exec-7] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:50:45.353  WARN 9012 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "book"]
+2022-05-09 14:50:54.911 DEBUG 9012 --- [http-nio-8080-exec-10] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:50:54.912 DEBUG 9012 --- [http-nio-8080-exec-10] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:50:54.914 DEBUG 9012 --- [http-nio-8080-exec-10] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:51:05.794  INFO 9012 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:51:05.797  INFO 9012 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:51:10.987  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:51:10.988 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:51:10.989  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:51:11.023  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-09 14:51:11.024  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-09 14:51:11.795  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:51:11.802  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:51:11.802  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:51:11.856  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:51:11.856  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 832 ms
+2022-05-09 14:51:11.928  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:51:12.017  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:51:12.457  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:51:12.496  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:51:12.507  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 1.857 seconds (JVM running for 2.371)
+2022-05-09 14:51:16.096  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 14:51:16.097  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 14:51:16.097  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-09 14:51:16.379 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:51:16.394 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:51:16.409 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:51:17.141 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:51:17.142 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:51:17.146 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:51:17.604 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:51:17.605 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:51:17.606 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:51:17.892 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:51:17.892 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:51:17.895 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:51:24.351  WARN 3124 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "book"]
+2022-05-09 14:51:49.907  INFO 3124 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:51:49.911  INFO 3124 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:51:49.977  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:51:49.977 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:51:49.977  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:51:50.171  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:51:50.172  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:51:50.172  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:51:50.188  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:51:50.188  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 209 ms
+2022-05-09 14:51:50.205  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:51:50.236  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2022-05-09 14:51:50.370  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:51:50.384  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:51:50.387  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.446 seconds (JVM running for 40.252)
+2022-05-09 14:51:50.389  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

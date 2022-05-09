@@ -1,0 +1,133 @@
+2022-05-09 15:02:21.089  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 15:02:21.091  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 15:02:21.093  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 15:03:56.447  INFO 3124 --- [Thread-47] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closing ...
+2022-05-09 15:03:56.447  INFO 3124 --- [Thread-47] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closed
+2022-05-09 15:03:56.522  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:03:56.522 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:03:56.522  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:03:56.684  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:03:56.685  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:03:56.685  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:03:56.711  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:03:56.711  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 187 ms
+2022-05-09 15:03:56.722  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:03:56.750  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} inited
+2022-05-09 15:03:56.862  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:03:56.876  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:03:56.879  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.38 seconds (JVM running for 766.743)
+2022-05-09 15:03:56.880  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:03:58.317  INFO 3124 --- [Thread-51] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closing ...
+2022-05-09 15:03:58.318  INFO 3124 --- [Thread-51] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closed
+2022-05-09 15:03:58.385  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:03:58.385 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:03:58.385  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:03:58.530  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:03:58.531  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:03:58.531  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:03:58.545  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:03:58.545  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 158 ms
+2022-05-09 15:03:58.557  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:03:58.585  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} inited
+2022-05-09 15:03:58.688  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:03:58.701  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:03:58.704  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.342 seconds (JVM running for 768.568)
+2022-05-09 15:03:58.705  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:04:02.932  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 15:04:02.933  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 15:04:02.933  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-09 15:04:03.158 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:04:03.225 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:04:03.225 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:04:03.230 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:04:03.233 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:04:03.234 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:04:03.236 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:04:07.771 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-09 15:04:07.771 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-09 15:04:07.772 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectById               : <==      Total: 1
+2022-05-09 15:04:07.795 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:04:07.797 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:04:07.797 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:04:07.799 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:04:07.799 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:04:07.800 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:04:07.801 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:04:19.066 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.updateById               : ==>  Preparing: UPDATE book SET type=?, name=?, description=? WHERE id=?
+2022-05-09 15:04:19.066 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.updateById               : ==> Parameters: 教育类(String), c语言程序设计(String), c语言的书,推荐(String), 1(Integer)
+2022-05-09 15:04:19.071 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.updateById               : <==    Updates: 1
+2022-05-09 15:04:19.086 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:04:19.088 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:04:19.088 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:04:19.090 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:04:19.092 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:04:19.092 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:04:19.094 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:04:55.748 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:04:55.749 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:04:55.750 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:04:55.752 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:04:55.752 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?
+2022-05-09 15:04:55.753 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : ==> Parameters: 10(Long)
+2022-05-09 15:04:55.754 DEBUG 3124 --- [http-nio-8080-exec-3] m.b.dao.BookDao.selectPage               : <==      Total: 4
+2022-05-09 15:07:25.638  INFO 3124 --- [Thread-55] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closing ...
+2022-05-09 15:07:25.639  INFO 3124 --- [Thread-55] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closed
+2022-05-09 15:07:25.723  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:07:25.723 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:07:25.724  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:07:25.891  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:07:25.892  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:07:25.892  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:07:25.906  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:07:25.906  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2022-05-09 15:07:25.920  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:07:25.949  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} inited
+2022-05-09 15:07:26.059  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:07:26.077  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:07:26.081  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.383 seconds (JVM running for 975.945)
+2022-05-09 15:07:26.081  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:07:27.505  INFO 3124 --- [Thread-59] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closing ...
+2022-05-09 15:07:27.505  INFO 3124 --- [Thread-59] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closed
+2022-05-09 15:07:27.579  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:07:27.579 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:07:27.580  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:07:27.737  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:07:27.737  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:07:27.737  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:07:27.752  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:07:27.752  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2022-05-09 15:07:27.766  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:07:27.797  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} inited
+2022-05-09 15:07:27.917  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:07:27.930  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:07:27.934  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.378 seconds (JVM running for 977.798)
+2022-05-09 15:07:27.934  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:07:31.246  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 15:07:31.246  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 15:07:31.247  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 15:07:31.248 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.controller.HTMLPageController        : IP：0:0:0:0:0:0:0:1 访问静态资源books.html
+2022-05-09 15:07:31.386 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.controller.BookController            : 查询，查询参数：id：null
+type：
+name：
+description：
+
+2022-05-09 15:07:31.412 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : ==>  Preparing: SELECT COUNT(*) AS total FROM book
+2022-05-09 15:07:31.412 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : ==> Parameters: 
+2022-05-09 15:07:31.413 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage_mpCount       : <==      Total: 1
+2022-05-09 15:07:31.414 DEBUG 3124 --- [http-nio-8080-exec-8] m.b.dao.BookDao.selectPage               : ==>  Preparing: SELECT id,type,name,description FROM book LIMIT ?

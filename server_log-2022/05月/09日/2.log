@@ -1,0 +1,112 @@
+2022-05-09 14:54:52.609 DEBUG 3124 --- [http-nio-8080-exec-4] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:56:19.492  INFO 3124 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closing ...
+2022-05-09 14:56:19.493  INFO 3124 --- [Thread-23] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2022-05-09 14:56:19.560  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:56:19.560 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:56:19.560  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:56:19.720  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:56:19.721  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:56:19.721  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:56:19.737  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:56:19.737  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 175 ms
+2022-05-09 14:56:19.750  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:56:19.780  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2022-05-09 14:56:19.890  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:56:19.903  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:56:19.906  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.372 seconds (JVM running for 309.77)
+2022-05-09 14:56:19.907  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 14:56:24.846  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 14:56:24.846  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 14:56:24.846  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-09 14:56:24.871 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:56:24.871 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:56:24.872 DEBUG 3124 --- [http-nio-8080-exec-1] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:56:25.550 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:56:25.550 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:56:25.551 DEBUG 3124 --- [http-nio-8080-exec-2] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:59:04.550  INFO 3124 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closing ...
+2022-05-09 14:59:04.551  INFO 3124 --- [Thread-27] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2022-05-09 14:59:04.623  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:59:04.623 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:59:04.623  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:59:04.787  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:59:04.788  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:59:04.788  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:59:04.804  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:59:04.804  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2022-05-09 14:59:04.817  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:59:04.846  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2022-05-09 14:59:04.962  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:59:04.975  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:59:04.979  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.383 seconds (JVM running for 474.843)
+2022-05-09 14:59:04.980  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 14:59:10.924  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 14:59:10.924  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 14:59:10.924  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-09 14:59:32.826  INFO 3124 --- [Thread-31] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closing ...
+2022-05-09 14:59:32.827  INFO 3124 --- [Thread-31] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2022-05-09 14:59:32.896  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:59:32.896 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:59:32.896  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:59:33.047  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:59:33.048  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:59:33.048  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:59:33.064  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:59:33.064  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 166 ms
+2022-05-09 14:59:33.076  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:59:33.105  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2022-05-09 14:59:33.219  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:59:33.232  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:59:33.235  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.364 seconds (JVM running for 503.099)
+2022-05-09 14:59:33.236  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 14:59:34.667  INFO 3124 --- [Thread-35] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closing ...
+2022-05-09 14:59:34.668  INFO 3124 --- [Thread-35] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closed
+2022-05-09 14:59:34.733  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:59:34.733 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:59:34.733  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 14:59:34.873  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 14:59:34.874  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 14:59:34.874  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 14:59:34.894  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 14:59:34.894  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2022-05-09 14:59:34.910  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:59:34.939  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2022-05-09 14:59:35.044  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 14:59:35.057  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 14:59:35.060  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.348 seconds (JVM running for 504.924)
+2022-05-09 14:59:35.061  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 14:59:37.228  INFO 3124 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 14:59:37.228  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-09 14:59:37.229  INFO 3124 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-09 15:02:10.048  INFO 3124 --- [Thread-39] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closing ...
+2022-05-09 15:02:10.049  INFO 3124 --- [Thread-39] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closed
+2022-05-09 15:02:10.133  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:02:10.133 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:02:10.133  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:02:10.308  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:02:10.308  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:02:10.309  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:02:10.327  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:02:10.327  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 192 ms
+2022-05-09 15:02:10.344  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:02:10.375  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} inited
+2022-05-09 15:02:10.487  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:02:10.500  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:02:10.504  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.4 seconds (JVM running for 660.368)
+2022-05-09 15:02:10.505  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-09 15:02:11.934  INFO 3124 --- [Thread-43] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closing ...
+2022-05-09 15:02:11.934  INFO 3124 --- [Thread-43] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closed
+2022-05-09 15:02:12.000  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Starting BookManagement using Java 16.0.2 on mao with PID 3124 (H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统\target\classes started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 15:02:12.001 DEBUG 3124 --- [restartedMain] mao.book_management.BookManagement       : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 15:02:12.001  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : The following 1 profile is active: "dev"
+2022-05-09 15:02:12.149  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-09 15:02:12.149  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-09 15:02:12.149  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-09 15:02:12.165  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-09 15:02:12.165  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 163 ms
+2022-05-09 15:02:12.178  INFO 3124 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 15:02:12.206  INFO 3124 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} inited
+2022-05-09 15:02:12.311  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-09 15:02:12.323  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-09 15:02:12.327  INFO 3124 --- [restartedMain] mao.book_management.BookManagement       : Started BookManagement in 0.348 seconds (JVM running for 662.191)
+2022-05-09 15:02:12.327  INFO 3124 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
