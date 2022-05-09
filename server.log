@@ -1,0 +1,33 @@
+2022-05-09 14:11:12.364  INFO 14808 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 14808 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:11:12.365 DEBUG 14808 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:11:12.366  INFO 14808 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:11:13.482  INFO 14808 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:11:13.773  INFO 14808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:11:15.285  INFO 14808 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.345 seconds (JVM running for 4.596)
+2022-05-09 14:11:16.514 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:11:16.557 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:11:16.600 DEBUG 14808 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 0
+2022-05-09 14:11:16.641  INFO 14808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:11:16.649  INFO 14808 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:13:57.773  INFO 17312 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 17312 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:13:57.774 DEBUG 17312 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:13:57.774  INFO 17312 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:13:58.754  INFO 17312 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:13:59.005  INFO 17312 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:14:00.400  INFO 17312 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.038 seconds (JVM running for 3.971)
+2022-05-09 14:14:01.454 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:14:01.498 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:14:01.540 DEBUG 17312 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:14:01.564  INFO 17312 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:14:01.571  INFO 17312 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-09 14:14:24.387  INFO 11124 --- [main] m.b.service.IBookServiceTest             : Starting IBookServiceTest using Java 16.0.2 on mao with PID 11124 (started by mao in H:\程序\大三下期\spring_boot_vue和element_UI实现图书信息管理系统)
+2022-05-09 14:14:24.388 DEBUG 11124 --- [main] m.b.service.IBookServiceTest             : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-09 14:14:24.388  INFO 11124 --- [main] m.b.service.IBookServiceTest             : The following 1 profile is active: "dev"
+2022-05-09 14:14:25.418  INFO 11124 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-09 14:14:25.666  INFO 11124 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-09 14:14:27.048  INFO 11124 --- [main] m.b.service.IBookServiceTest             : Started IBookServiceTest in 3.044 seconds (JVM running for 3.973)
+2022-05-09 14:14:27.984 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : ==>  Preparing: SELECT id,type,name,description FROM book
+2022-05-09 14:14:28.045 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : ==> Parameters: 
+2022-05-09 14:14:28.084 DEBUG 11124 --- [main] m.b.dao.BookDao.selectList               : <==      Total: 4
+2022-05-09 14:14:28.110  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-09 14:14:28.117  INFO 11124 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,234 @@
+
+
+#多环境开发---单文件
+spring:
+  profiles:
+    # 当前环境
+    active: dev
+
+#-----通用环境---------------------------------------------------------
+
+  # 导入jdbc.properties文件
+  config:
+    import: classpath:jdbc.properties
+
+
+  #spring-mvc配置
+  mvc:
+    # 视图解析器
+    view:
+      prefix:
+      suffix: .html
+
+# mybatis配置
+#mybatis:
+# mybatis 映射文件位置，string数组
+# mapper-locations: mapper/StudentMapper.xml
+# mybatis导入配置文件
+# config-location: mybatis-config.xml
+
+# mybatis-plus配置
+#mybatis-plus:
+# mybatis-plus 映射文件位置，string数组,默认mapper/**/*.xml
+# mapper-locations: mapper/**/*.xml
+# mybatis-plus导入配置文件
+# config-location: mybatis-config.xml
+
+
+#server:
+  #配置端口号
+  #port: 8080
+  # 配置上下文路径
+  # servlet:
+  #  context-path:
+
+
+
+
+---
+#------开发环境--------------------------------------------------------
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+  # 配置数据源
+  datasource:
+    # driver-class-name: ${jdbc.driver}
+    # url: ${jdbc.url}
+    # username: ${jdbc.username}
+    # password: ${jdbc.password}
+    # 配置数据源-druid
+    druid:
+      driver-class-name: ${jdbc.driver}
+      url: ${jdbc.url}
+      username: ${jdbc.username}
+      password: ${jdbc.password}
+
+
+
+
+#    # 导入redis配置文件
+#    import: classpath:redis.properties
+#
+#  # 关于redis
+#  redis:
+#    host: ${redis.host} # "127.0.0.1"
+#    port: ${redis.port}  # 6379
+#    password: ${redis.password} # "123456"
+#    jedis:
+#      pool:
+#        # 连接池开关
+#        enabled: true
+#        # 在给定时间可以分配的最大连接数
+#        max-active: ${max-active}  # 8
+#        #池中“空闲”连接的最大数量。使用负值表示无限数量的空闲连接。
+#        max-idle: ${max-idle} #  8
+#        # 当池耗尽时，连接分配在抛出异常之前应该阻塞的最长时间
+#        max-wait: ${max-wait}  # 2000
+
+
+
+#    # 导入rabbitMQ配置文件
+#    import: rabbitmq.properties
+#
+#  #关于rabbitMQ
+#  rabbitmq:
+#    host: ${rabbitmq.host} # 127.0.0.1
+#    port: ${rabbitmq.port} # 5672
+#    username: ${rabbitmq.username} # admin
+#    password: ${rabbitmq.password} # 123456
+#    # 发布确认类型
+#    publisher-confirm-type: correlated
+#    # 不可路由时返回
+#    publisher-returns: true
+
+
+
+  # 关于热部署
+  devtools:
+    restart:
+      # 热部署开关
+      enabled: true
+      # 自定义不参与重启排除项
+      exclude: public/**,static/**
+
+
+
+
+# 开启debug模式，输出调试信息，常用于检查系统运行状况
+#debug: true
+
+# 设置日志级别，root表示根节点，即整体应用日志级别
+logging:
+ # 日志输出到文件的文件名
+  file:
+     name: server.log
+  # 字符集
+  charset:
+    file: UTF-8
+  # 分文件
+  logback:
+    rollingpolicy:
+      #最大文件大小
+      max-file-size: 16KB
+      # 文件格式
+      file-name-pattern: server_log-%d{yyyy/MM月/dd日/}%i.log
+  # 设置日志组
+  group:
+  # 自定义组名，设置当前组中所包含的包
+    mao_pro: mao
+  level:
+    root: info
+    # 为对应组设置日志级别
+    mao_pro: debug
+    # 日志输出格式
+# pattern:
+  # console: "%d %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
+
+
+
+
+---
+#----生产环境----------------------------------------------------
+
+
+spring:
+  config:
+    activate:
+      on-profile: pro
+
+
+
+#  # 配置数据源
+#  datasource:
+#    # driver-class-name: ${jdbc.driver}
+#    # url: ${jdbc.url}
+#    # username: ${jdbc.username}
+#    # password: ${jdbc.password}
+#    # 配置数据源-druid
+#    druid:
+#      driver-class-name: ${jdbc.driver}
+#      url: ${jdbc.url}
+#      username: ${jdbc.username}
+#      password: ${jdbc.password}
+
+
+
+# 开启debug模式，输出调试信息，常用于检查系统运行状况
+#debug: true
+
+# 设置日志级别，root表示根节点，即整体应用日志级别
+logging:
+  # 日志输出到文件的文件名
+  file:
+    name: server.log
+  # 字符集
+  charset:
+    file: UTF-8
+  # 分文件
+  logback:
+    rollingpolicy:
+      #最大文件大小
+      max-file-size: 4MB
+      # 文件格式
+      file-name-pattern: server_log-%d{yyyy/MM月/dd日/}%i.log
+  # 设置日志组
+  group:
+    # 自定义组名，设置当前组中所包含的包
+    mao_pro: mao
+  level:
+    root: info
+    # 为对应组设置日志级别
+    mao_pro: warn
+    # 日志输出格式
+  # pattern:
+  # console: "%d %clr(%p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
+
+
+
+
+
+---
+#----测试环境-----------------------------------------------------
+
+spring:
+  config:
+    activate:
+      on-profile: test
+
+
+
+#  # 配置数据源
+#  datasource:
+#    # driver-class-name: ${jdbc.driver}
+#    # url: ${jdbc.url}
+#    # username: ${jdbc.username}
+#    # password: ${jdbc.password}
+#    # 配置数据源-druid
+#    druid:
+#      driver-class-name: ${jdbc.driver}
+#      url: ${jdbc.url}
+#      username: ${jdbc.username}
+#      password: ${jdbc.password}
