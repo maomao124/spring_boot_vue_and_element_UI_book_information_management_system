@@ -13,7 +13,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
  * Date(创建日期)： 2022/5/9
  * Time(创建时间)： 13:04
  * Version(版本): 1.0
- * Description(描述)： 无
+ * Description(描述)： 实体类
  */
 
 public class Book

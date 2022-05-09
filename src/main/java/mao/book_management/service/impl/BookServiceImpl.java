@@ -54,7 +54,7 @@ public class BookServiceImpl extends ServiceImpl<BookDao, Book> implements IBook
     @Override
     public IPage<Book> getPage(int currentPage, int pageSize)
     {
-        IPage page = new Page(currentPage, pageSize);
+        IPage<Book> page = new Page<>(currentPage, pageSize);
         bookDao.selectPage(page, null);
         return page;
     }
@@ -62,12 +62,12 @@ public class BookServiceImpl extends ServiceImpl<BookDao, Book> implements IBook
     @Override
     public IPage<Book> getPage(int currentPage, int pageSize, Book book)
     {
-        LambdaQueryWrapper<Book> lqw = new LambdaQueryWrapper<Book>();
-        lqw.like(Strings.isNotEmpty(book.getType()), Book::getType, book.getType());
-        lqw.like(Strings.isNotEmpty(book.getName()), Book::getName, book.getName());
-        lqw.like(Strings.isNotEmpty(book.getDescription()), Book::getDescription, book.getDescription());
-        IPage page = new Page(currentPage, pageSize);
-        bookDao.selectPage(page, lqw);
+        LambdaQueryWrapper<Book> bookLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        bookLambdaQueryWrapper.like(Strings.isNotEmpty(book.getType()), Book::getType, book.getType());
+        bookLambdaQueryWrapper.like(Strings.isNotEmpty(book.getName()), Book::getName, book.getName());
+        bookLambdaQueryWrapper.like(Strings.isNotEmpty(book.getDescription()), Book::getDescription, book.getDescription());
+        IPage<Book> page = new Page<>(currentPage, pageSize);
+        bookDao.selectPage(page, bookLambdaQueryWrapper);
         return page;
     }
 }
